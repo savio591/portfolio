@@ -1,0 +1,11 @@
+body {
+  background-color: #333;
+  color: #ccc;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 2em;
+  color: #c6c6c6;
+  font-family: Buenard;
+}
