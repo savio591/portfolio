@@ -38,3 +38,16 @@ header {
   font-family: Buenard;
   text-align: center;
 }
+
+@media only screen and (max-width: 1176px) {
+.hd-navbar {
+  padding: 0px 0px;
+  position: relative;
+  margin: auto;
+  }
+  .titulo {
+    font-size: 1.8em;
+    padding: 10px 0px
+    
+}
+}
