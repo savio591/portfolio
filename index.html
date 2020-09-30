@@ -26,16 +26,16 @@
 <!--Cabeçalho(Título no centro, navbar na direita-->
 <header class="hd">
     <div class="titulo-logo">
-        <h1 class="titulo">SAVIL EXPERIMENTS</h1>
+        <h1 class="titulo" id="about">SAVIL EXPERIMENTS</h1>
     </div>
         <!-- Navbar na direita(icone agrupado na versão mobile! -->
     <nav class="hd-navbar">
-        <a href="./about">Sobre Mim</a>
-        <a href="./galeria">Galeria</a>
-        <a href="./contato">Contato</a>
+        <a href="#about">Sobre Mim</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
     </nav>
 </header>
-<div class="ct-galeria">
+<div class="ct-galeria" id="galeria">
     <div class="ct-1"><img src="./img/1.jpg" alt="1"></div>
     <div class="ct-2"><img src="./img/2.jpg" alt="2"></div>
     <div class="ct-3"><img src="./img/3.jpg" alt="3"></div>
@@ -49,9 +49,22 @@
 <div class="button-div"><a class="button-link" href="https://instagram.com/phsvio">
     <button class="button">Ver mais no Instagram</button></a>
 </div>
-
-
-
+<footer class="rodape">
+  <div class="id-div">
+    <h3>Savio Castelo - 2020</h3>
+  </div>
+  <ul class="contato" id="contato">
+    <li class="nav-ig">
+      <a href="https://instagram.com/phsvio">
+        Instagram
+      </a>
+    </li>
+    <li class="nav-fb"><a href="https://fb.com/savio591" target="_blank">Facebook</a></li>
+    <li class="nav-tt"><a href="https://twitter.com/ehsvio2" target="_blank">Twitter</a></li>
+    <li class="nav-git"><a href="https://github.com/savio591" target="_blank">Github</a></li>
+    <li class="nav-lnk"><a href="https://www.linkedin.com/in/savio591" target="_blank">Linkedin</a></li>
+  </ul>
+</footer>
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
