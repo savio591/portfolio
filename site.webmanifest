@@ -1,6 +1,7 @@
 {
   "short_name": "savilexperiments.portfolio",
   "name": "Savil Experiments - Portfolio",
+  "display": "standalone",
   "icons": [{
     "src": "icon.png",
     "type": "image/png",
