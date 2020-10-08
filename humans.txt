@@ -3,13 +3,14 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <Savil> -- <WebDev> -- <ehsvio2>
 
 # THANKS
 
-    <name>
+    <Github for Gh_Pages!>
+    <Umbler for motivation!>
 
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5
+    CSS3, HTML5, JavaScript, VSCode
     Apache Server Configs, jQuery, Modernizr, Normalize.css
