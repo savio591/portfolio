@@ -69,95 +69,54 @@ header {
     text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.25);
 }
 
-.container_categorias {
-/* container.categories */
+.ct_categorias {
+    /* container.categories */
+    
+    
+    /* Auto Layout */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px 0px 0px 0px;
+    
+    position: absolute;
+    height: 642px;
+    left: 0%;
+    right: 0%;
+    top: 78px;
+    }
+    
+    .sombras {
+        filter: drop-shadow(4px 4px 3px rgba(0, 0, 0, 0.25));
+    }
+    .grid_1 {
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 0px 32px;
+        }
+    
+    
+        .overlay {
+            opacity: 0;
+            transition: .5s ease;
+            font-size: 4vw;
+            position: absolute;
+            margin: -12vw 5vw;
+          }
+      
+      .grid_1:hover .overlay {
+        opacity: 1;
+      }
+    
+      .wireframe {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 16px 0;
+      }
 
-
-/* Auto Layout */
-
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 32px 0px 0px 0px;
-
-position: absolute;
-height: 642px;
-left: 0%;
-right: 0%;
-top: 78px;
-}
-
-.container_categorias div {
-    /*! padding: 32px 0 0 0; */
-}
-
-.grid_1 {
-    /* grid.graphicdesign */
-
-
-position: static;
-height: 172px;
-left: 8.53%;
-right: 8.53%;
-top: 32px;
-
-filter: drop-shadow(4px 4px 3px rgba(0, 0, 0, 0.25));
-
-/* Inside Auto Layout */
-
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 0;
-margin: 0px 32px;
-}
-
-.grid_2 {
-    /* grid.photography */
-
-
-position: static;
-height: 171px;
-left: 8.53%;
-right: 8.53%;
-top: 236px;
-
-filter: drop-shadow(4px 4px 3px rgba(0, 0, 0, 0.25));
-
-/* Inside Auto Layout */
-
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
-margin: 0px 32px;
-}
-
-.grid_3 {
-    /* grid.frontend */
-
-
-position: static;
-width: 311px;
-left: 32px;
-top: 68.38%;
-bottom: 4.98%;
-
-filter: drop-shadow(4px 4px 3px rgba(0, 0, 0, 0.25));
-
-/* Inside Auto Layout */
-
-flex: none;
-order: 2;
-align-self: stretch;
-flex-grow: 0;
-margin: 0px 32px;
-}
-
-.grid {
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-    margin: auto;
-}
+      .texto {
+      }

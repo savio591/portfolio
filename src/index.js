@@ -6,7 +6,7 @@ import './css/normalize.css';
 import './css/react-index.css';
 import './main.js';
 import './plugins.js';
-import grid_svg from './grids/grid.graphicdesign.svg'
+import ct_categorias from './ui.categorias.js'
 import * as serviceWorker from './serviceWorker';
 
 class HeaderPrincipal extends React.Component {
@@ -30,22 +30,8 @@ class HeaderPrincipal extends React.Component {
   }
 
 class ContainerCategorias extends React.Component {
-  grid = <div className="grid">
-    <img
-    srcSet={grid_svg}
-    alt="gridwireframe"
-    className="grid-svg"
-    src={grid_svg}
-    />
-  </div>
   render() {
-    return(
-      <div className="container_categorias">
-        {this.grid}
-        {this.grid}
-        {this.grid}
-      </div>
-    )
+    return(ct_categorias)
   }
 }
 //======================================================================
